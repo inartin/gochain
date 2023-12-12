@@ -13,7 +13,6 @@
             background-position: center;
             background-attachment: fixed;
             position: relative;
-            /* Required for absolute positioning of child elements */
         }
 
         .blurred-background {
@@ -22,14 +21,11 @@
             left: 0;
             width: 100%;
             height: 100vh;
-            background-image: url('./bg.png');
-            /* Update with the correct path */
+            background-image: url('./bg.webp');
             background-size: cover;
             background-position: center;
             filter: blur(10px);
-            /* Adjust the blur intensity as needed */
             z-index: -1;
-            /* Ensure it stays behind the content */
         }
 
         .content {
